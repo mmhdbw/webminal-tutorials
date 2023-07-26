@@ -1,4 +1,4 @@
-### Lesson10 - Background and Foreground Process 
+# Lesson 10 - Background and Foreground Process 
 
 So we know there is a first process named 'init' with pid. This is parent 
 of all process in the system. And a process named 'bash' interacts with

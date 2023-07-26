@@ -1,6 +1,6 @@
-title: Lesson7 - Locate file and its type
 
-### Lesson7 - Locate file and its type
+
+# Lesson 7 - Locate file and its type
 
 Often we need  to figure out a file type,for such task,
 we can use
@@ -10,7 +10,7 @@ we can use
 ----
 
 
-title: file
+## `file`
 
 determines the type of a file as ASCII text
 
@@ -33,7 +33,7 @@ says
 often we need to find the location of a certain file
 
 	whereis ls
-title: whereis
+## `whereis`
 
 you should see an output
 
@@ -55,7 +55,7 @@ which version will get executed?we don't know. In order to find it out,we use
 
 	which php
 
-title: which
+## `which`
 
 To locate a binary file or if you have two version of a binary 
 file installed ,you can find "which"  one is currently used with 
@@ -70,7 +70,7 @@ so in order to search a file on any directory,
 
 	find ~ -name "linux.txt"
 
-title: find
+## `find`
 
 Searches for files in a directory hierarchy.
 

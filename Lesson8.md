@@ -1,6 +1,6 @@
-title: Lesson8 - System and user details
 
-### Lesson8 - System and user details
+
+# Lesson 8 - System and user details
 
 Use below command to find out how long this system has
 been up and running,
@@ -10,7 +10,7 @@ been up and running,
 
 ----
 
-title: uptime
+## `uptime`
 
 uptime gives ,the current time, how long the system has been running, 
 how  many  users  are currently  logged  on,  and the system load 
@@ -21,7 +21,7 @@ To know current date and time simply use
 	date
 
 
-title: date
+## `date`
 
 Okay that display the current time of server running
 webminal.org website.
@@ -30,7 +30,7 @@ To display details about currently logged users
 
 	who
 
-title: who
+## `who`
 
 can you see other linux users ? :) 
 
@@ -40,7 +40,7 @@ You can also use a single letter command,
 
 	w
 
-title: w
+## `w`
 
 see it gives more detailed informatio than `who`. `w` can 
 display  information  about the users currently on the machine,
@@ -52,7 +52,7 @@ currently logged on, and the system load averages for the past
 Displays list of mounted file system
 
 	mount
-title: mount
+## `mount`
 
 provides list of mounted file systems.
 
@@ -64,14 +64,14 @@ to view only ext4 file system,
 to display free disk space on mounted devices.
 
 	df -h
-title: df
+## `df`
 
 -h switch makes the output more headable for humans.
 so we found  df finds disk usage,but to find memory 
 usage,we need to use
 
 	free -m
-title: free
+## `free`
 
 displays the total amount of free and used physical and swap memory 
 in the system, as well as the buffers  used  by  the  kernel.

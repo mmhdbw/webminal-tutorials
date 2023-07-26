@@ -1,6 +1,6 @@
-title: Lesson5 - Manipulate or parse file contents
 
-### Lesson5 - Manipulate or parse file contents 
+
+# Lesson 5 - Manipulate or parse file contents 
 
 Lets try this widely used
 
@@ -8,7 +8,7 @@ Lets try this widely used
 
 
 ----
-title: grep
+## `grep`
 
 `grep` searches for matching words or line on the file
 To search entire directory of files, supply the directory name
@@ -32,7 +32,7 @@ To display lines that don't match the pattern:
 
 To count no.of words,lines and character on a file use
 	wc hello 
-title: wc
+## `wc`
 
 thus wc counts lines/words/bytes in a file. first field is 
 no.of lines , second column is no.of words and third column 
@@ -53,7 +53,7 @@ Okay,you have two files new.txt,linux.txt now,lets cut it ! :D
 	
 	cut -f1 -d' ' new.txt
 
-title: cut
+## `cut`
 
 So it  extracted the first column from the file and to 
 extract the third column
@@ -67,7 +67,7 @@ seen how to cut a file lets check out the another one ,
 	paste hello new.txt 
 
 
-title: paste
+## `paste`
 
 paste merges the lines of files
 
@@ -80,14 +80,14 @@ to paste one file at time,
 In order to sort a file content, we could use 
 
 	sort new.txt
-title: sort
+## `sort`
 
 File contents are sorted.Remember,we have two files
 new.txt and linux.txt.lets compare them
 
 	diff hello linux.txt
 
-title: diff
+## `diff`
 
 File contents are sorted.Remember,we have two files
 new.txt and linux.txt.lets compare them

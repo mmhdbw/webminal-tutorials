@@ -1,6 +1,6 @@
-title: Lesson2 - Create files, display contents and stats
 
-### Lesson2 - Create files, display contents and stats
+
+# Lesson 2 - Create files, display contents and stats
 
 During Lesson1,you have learned how to create directories.
 
@@ -16,7 +16,7 @@ and press enter key and read on :)
 
 ----
 
-title: touch
+## `touch`
 
 touch command will create a new file or 
 change time stamp of an existing file.
@@ -33,7 +33,7 @@ will create an empty new file ,if the file is not already exists.
 to view directory contents ,you can also use
 
         dir
-title: dir
+## `dir`
 
 
 `dir` is used to list directory contents.Yeah,as you guessed
@@ -46,13 +46,13 @@ To clear a screen,the command is
 
 	clear
 
-title: clear
+## `clear`
 
 Viola! terminal screen is cleared!!!
 Lets print some message on the terminal,
 
 	echo "hello" 
-title: echo
+## `echo`
 
 Cool! the message is displayed on the screen.
 Lets redirect the message to a new file instead 
@@ -69,7 +69,7 @@ Done.To view the file content ,do
 
 	cat hello.txt 
 
-title: cat
+## `cat`
 
 so now you have viewed the file content.`cat` is 
 used to display the entire file content.<br/>
@@ -81,7 +81,7 @@ To view only first two lines from the file
 
 
 
-title: head
+## `head`
 
 see,it showed us first two lines from files.
 By default,`head` will display the first 10 lines when you run,
@@ -93,7 +93,7 @@ Now how to view last two lines?.Its simple,use `tail`
 	tail -2 hello.txt
 
 
-title: tail
+## `tail`
 
 cool. Thus `head` will be used to display
 lines from begining and `tail` will be 
@@ -108,7 +108,7 @@ we have create so far.
 
 	stat hello.txt
 
-title: stat
+## `stat`
 
 carefully examine few important fields the output. The first line
 shows the `filename`.second line says its a `regular file` with

@@ -1,6 +1,6 @@
-title: Lesson6 - Changing file attributes
 
-### Lesson6 - Changing file attributes
+
+# Lesson 6 - Changing file attributes
 
 Lets begin with a command that manipulates pathname,
 
@@ -11,7 +11,7 @@ Lets begin with a command that manipulates pathname,
 ----
 
 
-title: dirname
+## `dirname`
 
 strip non-directory suffix from path name ,gave you the output
 
@@ -24,7 +24,7 @@ lets use the same path with different command this time
 
 
 
-title: basename
+## `basename`
 
 this strips directory and suffix from pathname and gives the last entry.
 
@@ -34,7 +34,7 @@ Pretty useful commands :D lets change file access permission
 
 	chmod -v 666 file1.txt
 
-title: chmod
+## `chmod`
 
 
 You should have seen a output like `mode of file1.txt changed to 0666 (rw-rw-rw-)`
@@ -55,7 +55,7 @@ with next command only owner can read or write into this file. `chmod u+rw file1
 
 	chmod -R 644 ~/chmod_dir
 now to change file owner , `chown root file1.txt`
-title: chown
+## `chown`
 
 `chown: changing ownership of file1.txt: Operation not permitted`
 
@@ -84,7 +84,7 @@ will change the files the belong to webminal user and webminal group to root
 and other user files left as it is.Lets change the group alone-
 
 	chgrp root file1.txt
-title: chgrp
+## `chgrp`
 
 	chgrp: changing group of `file1.txt': Operation not permitted
 

@@ -1,6 +1,6 @@
-title: Lesson3 - Copy,rename,delete files 
 
-### Lesson3 - Copy,rename,delete files 
+
+# Lesson 3 - Copy,rename,delete files 
 
 On `Lesson1`,you learned about directories.
 With `Lesson2`,you learned about files.
@@ -15,7 +15,7 @@ Now check this command
 
 
 
-title: du
+## `du`
 
 it displays the disk usage of current directory.(Please note the current 
 total of du output).Use  the h switch to output in a human readable format
@@ -34,7 +34,7 @@ Now lets copy  `hello.txt` to `dir2` directory.
 
 	cp -v hello.txt dir2
 
-title: cp
+## `cp`
 
 now file is copied to new location.Now compute the usage again using,
 `wm_du` now you should see usage has been increased by file size.
@@ -80,7 +80,7 @@ now lets move to another command,
 
 	mv hello.txt dir2/dir3/dir4/hi.txt
 
-title: mv
+## `mv`
 
 will move a file into  directory dir4 and names it as hi.txt.
 `so how mv is different from cp?`.Try `wm_ls` it will not show hello.txt.
@@ -106,7 +106,7 @@ a link and after that,you can access or edit `dir2/dir3/dir4/hi.txt` file
 as simply `hello`
 
 	ln  dir2/dir3/dir4/hi.txt hello 
-title: ln
+## `ln`
 
 Great! you have created a link. There are two types of links, hardlinks.
 where a same inode pointed by two different names and softlinks which 
@@ -131,7 +131,7 @@ To remove individual file use
 	 rm -i file2.txt 
 
 
-title: rm
+## `rm`
 
 will prompt you with a message.`rm: remove regular empty file 'file2.txt'?`
 type `y` to delete the file.To remove directory,

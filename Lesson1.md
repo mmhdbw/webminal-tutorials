@@ -1,10 +1,10 @@
-In this lesson we will give you command examples.  After typing the command, press Enter to execute.
+In this lesson we will give you command examples.  After typing the command, press the Enter key to execute.
 
 Welcome to Lesson 1.  Do you know what your current working directory is?  Let's find out.  Type the command:
 
     $ pwd
 
-Did the command show you output similar to "/home/yourname" where "yourname" is the username you signed up with? Congratulations,you have found your current working directory and have joined exclusive club of linux commandline users!
+Did the command show you output similar to "/home/yourname" where "yourname" is the username you signed up with? Congratulations, you have found your current working directory and have joined exclusive club of Linux commandline users!
 
 For the next command we will need your current working directory to be your home directory.  Type the command:
 
@@ -32,7 +32,7 @@ Or you can take a smart shortcut and type the command:
 
 	$ mkdir -vp dir2/dir3/dir4
 
-The "-p" option will create all of the parent directories for "dir4".  In this case,it created 
+The "-p" option will create all of the parent directories for "dir4".  In this case, it created 
 
 	dir2/
 	dir2/dir3/
@@ -66,7 +66,9 @@ and we should get the output:
 
 	./dir2/dir3/dir4:
 
-The "-R" is a command argument or parameter.  For the command "ls" it stands for recursive.  Now that we have created a new directories and listed them,lets move into a new directory.  Type the command:
+The "-R" is a command argument or parameter.  For the command "ls" it stands for recursive.  
+
+Now that we have created new directories and listed them, lets move into a new directory.  Type the command:
 
 	cd dir2
 
@@ -74,7 +76,7 @@ You have changed to "dir2".  Lets confirm this.  Type the command:
 
 	$ pwd
 
-Lets move into next directory.  Type the command:
+Lets move into the next directory.  Type the command:
 
 	cd dir3
 	
@@ -86,8 +88,8 @@ We have moved to the parent directory, which is "dir2".  We are finished with wo
 
 	$ cd -
 
-We are now back in the directory "dir3".  Do you feel like a linux commandline pro yet?  Let's go back home.  Type the command:
+We are now back in the directory "dir3".  Do you feel like a Linux commandline pro yet?  Let's go back home.  Type the command:
 
 	$ cd
 
-We have returned to your home directory.  That's it, You have successfully completed lesson 1!  Now to start next lesson.
+We have returned to your home directory.  That's it, You have successfully completed lesson 1!  Now to start the next lesson.

@@ -1,6 +1,6 @@
-title: Lesson4 - Basic process commands
 
-### Lesson4 - Basic process commands 
+
+# Lesson 4 - Basic process commands 
 
 On `Lesson1`,you learned about directories.
 With `Lesson2`,you learned about files.
@@ -16,7 +16,7 @@ Now check this widely used
 
 
 
-title: ps
+## `ps`
 
 output is nothing but a snapshot of the currently running processes.
 lets create  a new process.
@@ -25,7 +25,7 @@ lets create  a new process.
 	sleep 60 &
 
 
-title: ps
+## `ps`
 
 can you see process id on screen?Now again do
 	
@@ -36,7 +36,7 @@ this process replace 12345 will your sleeping process id,you got above
 
 	kill 12345
 
-title: kill
+## `kill`
 
 Check again the running process list with 
 	
@@ -63,7 +63,7 @@ start two process like
 checking with "ps",we can see we have two process named sleep,now type
 
 	killall sleep 
-title: killall
+## `killall`
 
 did it gave an output like 
 	
@@ -87,7 +87,7 @@ To find a process id (pid) of a process you can use,
 
 	pidof bash
 
-title: pidof
+## `pidof`
 
 provides the process ID of a running program bash
 
@@ -101,7 +101,7 @@ You can adjust the pripority of your process by starting a process like,
 
 	nice -n 19 sleep 30 &
 
-title: nice
+## `nice`
 
 runs a program with modified scheduling priority.
 Nice runs  a command  with an adjusted niceness, which affects process 
@@ -116,7 +116,7 @@ how to adjust priority of currently running process with pid 12345?
 
 	renice -n 19 12345
 	
-title: renice
+## `renice`
 
 changes priority of running processes.
 
@@ -143,14 +143,14 @@ To adjust priority for all process owned by a user "webminal",
 to display running process ,you can also use 
 
 	top
-title: top
+## `top`
 
 see it provides a dynamic real-time view of a running system.
 spend sometime ,examining the output.To quit from the top command,press `q`.
 To display commands in a tree like structure,type
 
 	pstree 
-title: pstree
+## `pstree`
 
 display a tree of processes,to display pid ,
 use -p option with pstree.
@@ -164,7 +164,7 @@ a command.
 
 
 
-title: time
+## `time`
 
 
 time gives statistics about the program it ran.

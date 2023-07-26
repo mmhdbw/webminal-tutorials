@@ -24,7 +24,7 @@ Now press Enter key then provide password and see what happens
 
 
 
-title: mysql
+## `mysql`
 
 Did it say?
 
@@ -50,7 +50,7 @@ Now inorder to use that database; type
 
 
 
-title: use
+## `use`
 
 Did it say?
 
@@ -70,7 +70,7 @@ type,
 Press enter key it should display 
 *`Query OK, 0 rows affected `*
 
-title: create
+## `create`
 
 Congrats! you successfully created table
 with format.
@@ -80,7 +80,7 @@ database type
 
         	show tables;
 
-title: show
+## `show`
 
 Wait a second, let me guess .hmm..
 
@@ -105,7 +105,7 @@ table.do  type,
 
 
 
-title: describe
+## `describe`
 
 Did you see the following?
 
@@ -135,7 +135,7 @@ at third position from sun and has a moon.
 
 
 
-title: insert
+## `insert`
 
 Now lets add our possible future home,
 
@@ -152,7 +152,7 @@ To retrieve these data from table,type
 
         select * from planets;
 
-title: select
+## `select`
 
 it shows
 
